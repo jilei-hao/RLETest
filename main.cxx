@@ -6,12 +6,13 @@
 #include <itkImageFileWriter.h>
 #include <itkTimeProbe.h>
 #include "itkTestingComparisonImageFilter.h"
-#include <itkBinaryThresholdImageFilter.h>
-#include <itkRLEImage.h>
 #include <itkRLEImageScanlineConstIterator.h>
 #include <itkRLEImageScanlineIterator.h>
 #include <itkImageScanlineConstIterator.h>
 #include <itkImageScanlineIterator.h>
+#include <itkBinaryThresholdImageFilter.h>
+#include <itkRLEImage.h>
+
 
 //using namespace std;
 

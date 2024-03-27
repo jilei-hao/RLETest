@@ -1,5 +1,7 @@
 #include <itkImage.h>
 #include <itkRLEImage.h>
+#include <itkRLEImageScanlineIterator.h>
+#include <itkRLEImageScanlineConstIterator.h>
 #include <itkImageScanlineConstIterator.h>
 
 int main (int argc, char *argv[])

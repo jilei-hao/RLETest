@@ -9,7 +9,7 @@ int main (int argc, char *argv[])
   itk::ImageScanlineConstIterator it1(constFloat, constFloat->GetLargestPossibleRegion());
 
   // complile error
-  const shortRLEImage *constRLE = itkRLEImage<short, 3>::New();
+  const itk::RLEImage<short, 3> *constRLE = itk::RLEImage<short, 3>::New();
   itk::ImageScanlineConstIterator it2(constRLE, constRLE->GetLargestPossibleRegion());
 
   return 0;
